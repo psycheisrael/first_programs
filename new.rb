@@ -9,8 +9,8 @@ user_input = gets.chomp
    elsif user_input == "no"
        print "You have alot to learn"
 user_input = gets.chomp
-   elsif user_input != "yes" || "no"
+   elsif user_input != "yes" || user_input != "no"
        puts "Only time will tell"
-    end 
+   end 
    
 
